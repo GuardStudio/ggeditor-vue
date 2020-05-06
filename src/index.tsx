@@ -10,7 +10,7 @@ import Flow from '@/components/Flow/index.vue';
 import Command from '@/components/Command/index.vue';
 import ItemPanel from '@/components/ItemPanel/index.vue';
 import Item from '@/components/ItemPanel/Item.vue';
-//import DetailPanel from '@/components/DetailPanel';
+import DetailPanel from '@/components/DetailPanel';
 //import { RegisterNode, RegisterEdge, RegisterCommand, RegisterBehavior } from '@/components/Register';
 import { baseCommand } from '@/components/Graph/command/base';
 
@@ -30,7 +30,7 @@ export {
   Command,
   Item,
   ItemPanel,
-  //DetailPanel,
+  DetailPanel,
   //RegisterNode,
   //RegisterEdge,
   //RegisterCommand,
